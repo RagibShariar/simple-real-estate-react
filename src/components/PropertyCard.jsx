@@ -19,7 +19,7 @@ export default function PropertyCard(props) {
         </h4>
         <div className="mt-2">
           <span className="text-xl font-extrabold text-blue-600">
-            $ {props?.property?.price}
+            ${props?.property?.price}
           </span>{" "}
           /M
         </div>
